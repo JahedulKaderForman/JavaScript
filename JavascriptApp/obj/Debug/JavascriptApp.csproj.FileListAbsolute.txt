@@ -1,0 +1,6 @@
+C:\Users\Forman khan\Desktop\Dot_net\JavascriptApp\JavascriptApp\bin\JavascriptApp.dll.config
+C:\Users\Forman khan\Desktop\Dot_net\JavascriptApp\JavascriptApp\bin\JavascriptApp.dll
+C:\Users\Forman khan\Desktop\Dot_net\JavascriptApp\JavascriptApp\bin\JavascriptApp.pdb
+C:\Users\Forman khan\Desktop\Dot_net\JavascriptApp\JavascriptApp\obj\Debug\JavascriptApp.csprojResolveAssemblyReference.cache
+C:\Users\Forman khan\Desktop\Dot_net\JavascriptApp\JavascriptApp\obj\Debug\JavascriptApp.dll
+C:\Users\Forman khan\Desktop\Dot_net\JavascriptApp\JavascriptApp\obj\Debug\JavascriptApp.pdb
