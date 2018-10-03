@@ -65,13 +65,31 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="addEventListenerRemoveEventLintnerJavascript12.html" />
     <Content Include="ArraysJavaScript5.aspx" />
     <Content Include="ConditionalJavaScript3.aspx" />
     <Content Include="ConvertStringToNumbers_1.aspx" />
+    <Content Include="customStyle.css" />
+    <Content Include="DateJavaScript8.aspx" />
+    <Content Include="ErrorHandlingJavaScript7.aspx" />
+    <Content Include="EventHandlersByDom.html" />
+    <Content Include="EventsJavaScript11.aspx" />
     <Content Include="FunctionJavaScript6.aspx" />
+    <Content Include="imageSlideShowJavaScript10.html" />
+    <Content Include="Images\1.JPG" />
+    <Content Include="Images\2.JPG" />
+    <Content Include="Images\3.JPG" />
+    <Content Include="Images\4.JPG" />
+    <Content Include="Images\5.JPG" />
+    <Content Include="Images\6.JPG" />
+    <Content Include="Images\7.JPG" />
+    <Content Include="Images\8.JPG" />
+    <Content Include="Images\pic.png" />
     <Content Include="Inline_External_Javascript.aspx" />
     <Content Include="LoopJavaScipt4.aspx" />
+    <Content Include="MyCv.html" />
     <Content Include="StringJavascript2.aspx" />
+    <Content Include="Time_interval9.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +113,27 @@
     </Compile>
     <Compile Include="ConvertStringToNumbers_1.aspx.designer.cs">
       <DependentUpon>ConvertStringToNumbers_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DateJavaScript8.aspx.cs">
+      <DependentUpon>DateJavaScript8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DateJavaScript8.aspx.designer.cs">
+      <DependentUpon>DateJavaScript8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorHandlingJavaScript7.aspx.cs">
+      <DependentUpon>ErrorHandlingJavaScript7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorHandlingJavaScript7.aspx.designer.cs">
+      <DependentUpon>ErrorHandlingJavaScript7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EventsJavaScript11.aspx.cs">
+      <DependentUpon>EventsJavaScript11.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EventsJavaScript11.aspx.designer.cs">
+      <DependentUpon>EventsJavaScript11.aspx</DependentUpon>
     </Compile>
     <Compile Include="FunctionJavaScript6.aspx.cs">
       <DependentUpon>FunctionJavaScript6.aspx</DependentUpon>
@@ -126,6 +165,7 @@
       <DependentUpon>StringJavascript2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

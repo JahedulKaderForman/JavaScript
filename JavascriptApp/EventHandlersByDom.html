@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <input type="button" value="Click me" id="btn" onclick="hander1()"/>
+    <script type="text/javascript">
+
+        //DOM object property
+        document.getElementById("btn").onclick = handler2;
+
+        function handler1() {
+            alert("Handler assinged using HTML attribute");
+        }
+
+        function handler2() {
+            alert("Handler assinged using DOM object property");
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<input id="btn" type="button" value="Click Me" />
+<input id="Button1" type="button" value="Remove Event Handlers" onclick="RemoveHandalers()" />
+<head>
+    <script type="text/javascript">
+        btn.addEventListener("mouseover", changeColorOnMouseOver);
+        btn.addEventListener("mouseout", changeColorOnMouseOut);
+        function changeColorOnMouseOver() {
+            this.style.background = 'red';
+            this.style.color = 'yellow';
+        }
+        function changeColorOnMouseOut() {
+            this.style.background = 'black';
+            this.style.color = 'white';
+        }
+
+        function RemoveHandalers() {
+            btn.reomveEventListener("mouseover", changeColorOnMouseOver);
+            btn.reomveEventListener("mouseout", changeColorOnMouseOut);
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

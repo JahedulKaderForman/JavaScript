@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <img src="Images/1.JPG" id="image" style="height:150px;width:150px"/>
+    <br/>
+    <input type="button" value="Start slide show" onclick="startSlideShow()"/>
+    <input type="button" value="Stop Slide show" onclick="stopSlideShow()" />
+    <br/>
+    <div id="result"></div>
+    <script type="text/javascript">
+        var intervalId;
+        function startSlideShow() {
+            intervalId = setInterval(changeImage, 1000);
+        }
+
+        function stopSlideShow() {
+            clearInterval(intervalId);
+        }
+        function changeImage() {
+            var imagesrc = document.getElementById("image").getAttribute("src");
+            var currentImageNumber = imagesrc.substring(imagesrc.lastIndexOf("/") + 1, imagesrc.lastIndexOf("/") + 2);
+            if (currentImageNumber == 8) {
+                currentImageNumber = 0;
+            }
+            document.getElementById("image").setAttribute("src", "/Images/" + (Number(currentImageNumber) + 1) + ".JPG");
+            //document.getElementById("result").innerHTML = Number(currentImageNumber)+1;
+        }
+       
+    </script>
+</head>
+<body>
+
+</body>
+</html>
